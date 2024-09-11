@@ -1,0 +1,51 @@
+# Node modules directory
+node_modules/
+
+# Build output directory (if applicable)
+dist/
+build/
+
+# Environment variables file
+.env
+
+# Database configuration files (if not in version control)
+*.sql
+*.sqlite
+
+# Logs
+*.log
+logs/
+pids/
+*.pid
+*.seed
+
+# OS and IDE-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# npm package-lock file (optional)
+package-lock.json
+
+# npm debug log
+npm-debug.log*
+
+# TypeScript specific (if using TypeScript)
+*.tsbuildinfo
+
+# Yarn specific (if using Yarn)
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Coverage directory for coverage reports
+coverage/
+
+# Prisma generated files (if using Prisma)
+prisma/generated/
+prisma/migrations/
+
+# Sequelize generated files (if using Sequelize)
+sequelize-cli/
